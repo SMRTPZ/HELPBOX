@@ -18,8 +18,11 @@ In this short guide we will show you how to use it in console.
 ### When you want to add your project
 > First of all create a new project [here](https://github.com/SMTRPZ)
 > Add file with the name ".gitignore" in your project root folder with such data(sample entries):
->> 
->> 
+```
+   .vs
+   [Bb]in
+   [Oo]bj
+```
 > Then enter commands in console:
  ```
    git init
